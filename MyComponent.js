@@ -124,9 +124,6 @@ function MyComponent() {
     height: '296px',
     flexShrink: 0,
     backgroundColor: 'lightgray',
-    backgroundSize: 'cover',
-    backgroundPosition: '50%',
-    backgroundRepeat: 'no-repeat',
     margin: '0px 0px 50px 170px', 
     marginTop: '70px',
     };
@@ -194,7 +191,7 @@ function MyComponent() {
     width: '111px',
     height: '3px',
     position: "absolute",
-    backgroundColor: '#39004d', // You can adjust the color as needed
+    backgroundColor: '#39004d', 
     alignItems:"center",
     left: '850px',
     top:'15px', 
@@ -203,9 +200,9 @@ function MyComponent() {
     width: '111px',
     height: '2px',
     position: "absolute",
-    backgroundColor: "#9900cc", // You can adjust the color as needed
+    backgroundColor: "#9900cc", 
     left:"850px",
-    top:'25px', // Center the line horizontally
+    top:'25px', 
   };
   return (
     <div className='container' style={{ position: 'relative' }}>

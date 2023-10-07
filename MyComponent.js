@@ -77,7 +77,7 @@ function MyComponent() {
     cursor: 'pointer',
   };
   const openEmailClient = () => {
-    window.location.href = 'mailto:example@gmail.com'; // Replace with your email address
+    window.location.href = 'mailto:sanju.bae19@gmail.com'; 
   };
   const customStyles4 = {
     width: '380px',
